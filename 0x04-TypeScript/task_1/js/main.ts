@@ -15,3 +15,8 @@ const teacher3: Teacher = {
     contract: false,
   };
   console.log(teacher3);
+
+  function printTeacher(firstName:string, lastName:string): string {
+    return (`${firstName[0]}. ${lastName}`)
+  }
+  console.log(printTeacher("John", "Doe"));
